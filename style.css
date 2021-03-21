@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+body{
+    padding-bottom: 20vh;
+}
+
+header{
+    width: 100vw;
+    margin: auto;
+    background: rgb(248, 248, 248);
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.45);
+    padding: 10px;
+}
+
+#btnContainer{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.btn{
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(95, 172, 216);
+    padding: 10px 20px;
+    margin: 0 27px;
+    display: inline-flex;
+}
+
+.btn:hover{
+    background-color: rgb(71, 181, 255);
+    transition: 0.5s;
+}
+
+img{
+    width: 20vw;
+}
+
+ul{
+    width: 80vw;
+    margin: auto;
+    margin-top: 40px;
+}
+
+li{
+    height: max-content;
+    list-style: none;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.45);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.title{
+    font-size: 24px;
+    text-decoration: none;
+}
+
+li div{
+    display: flex;
+}
+
+li img{
+    margin-top: 20px;
+    float: left;
+}
+
+.desc{
+    float: left;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
