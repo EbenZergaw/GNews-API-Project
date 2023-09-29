@@ -18,8 +18,14 @@ header{
     padding: 10px;
 }
 
+#headerTitle{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #d65a31;
+}
+
 #btnContainer{
-    width: 80%;
+    width: 100%;
     margin: auto;
     text-align: center;
 }
@@ -31,7 +37,7 @@ header{
     border-radius: 15px;
     background-color: #d65a31;
     padding: 10px 20px;
-    margin: 0 23px;
+    margin: 0 6px;
     display: inline-flex;
     transition: 0.5s;
 }

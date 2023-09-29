@@ -17,7 +17,8 @@ function getNews(id) {
         data.articles.forEach((article) => {
             articles.push(article)
         })
-        console.log(articles)
+        const h1 = document.getElementById('headerTitle')
+        h1.innerHTML = id.toUpperCase()
     })
     .then(() => {
         paintNews()
